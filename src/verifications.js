@@ -23,15 +23,8 @@ function nameVerification(name){
     }
 }
 
-
 function othernameVerification(othername){
-    if (othername.toUpperCase || othername.islowerCase) {
-        return true
-    } if (othername === Number) {
-        return true
-    } else {
-        return true
-    }
+    return true
 }
 
 function dateVerification(date){
